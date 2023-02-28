@@ -2,6 +2,7 @@ from rest_framework.response import Response
 from rest_framework.exceptions import ValidationError
 from django.contrib.auth.models import User
 from projects.models import Project, Contributor, Issue
+from projects import serializers
 
 
 def users_list_id(self):
